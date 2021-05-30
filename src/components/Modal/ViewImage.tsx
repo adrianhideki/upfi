@@ -39,7 +39,11 @@ export function ModalViewImage({
             maxW="900px"
           />
         </ModalBody>
-        <ModalFooter justifyContent="flex-start">Abrir Original</ModalFooter>
+        <ModalFooter justifyContent="flex-start">
+          <Link href={imgUrl} target="_blank">
+            Abrir original
+          </Link>
+        </ModalFooter>
       </ModalContent>
     </Modal>
   );
